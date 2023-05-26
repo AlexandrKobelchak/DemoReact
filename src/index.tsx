@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import AppComponent from './components/app-component';
 import reportWebVitals from './reportWebVitals';
-import {ClientTagService} from "./components/_services/ClientTagService";
 import 'bootstrap/dist/css/bootstrap.css';
-import {BrowserRouter} from "react-router-dom";
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

@@ -1,11 +1,9 @@
 import {Component, SyntheticEvent} from "react";
 import PhoneInput from "react-phone-input-2";
-import { faMinus } from '@fortawesome/free-solid-svg-icons'
 import "./phone-component.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {PhoneDataViewModel} from "../../_models/PhoneDataViewModel";
 import {AddPhoneComponent} from "../add-phone/add-phone-component";
-import {SocialNetworkService} from "../../_services/SocialNetworkService";
 import {SocialNetworkViewModel} from "../../_models/SocialNetworkViewModel";
 import {Unit} from "../../_unit/unit";
 
